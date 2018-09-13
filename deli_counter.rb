@@ -14,3 +14,11 @@ def take_a_number(katz_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.index(katz_deli.last)+1} in line."
 end
+
+def now_serving
+  if katz_deli == []
+  puts "There is nobody waiting to be served."
+  else 
+  puts "Welcome, #{name[0]}."
+end
+end
